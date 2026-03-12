@@ -31,7 +31,7 @@ async def process_invoice(file: UploadFile = File(...)):
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to AI-Powered Invoice Processor API "}
+    return {"message": " Invoice Processor API "}
 #this is the main file
 if __name__ == "__main__":
     import uvicorn
